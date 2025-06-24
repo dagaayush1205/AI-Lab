@@ -86,4 +86,5 @@ trainer = Trainer(
 )
 
 trainer.train()
-
+trainer.model.save_pretrained("/root/home/")
+tokenizer.save_pretrained("/root/home/")
