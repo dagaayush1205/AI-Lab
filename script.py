@@ -1,5 +1,4 @@
 from huggingface_hub import login
-from google.colab import userdata
 # Changed the secret key to a more common name. Make sure you have a secret named 'HF_TOKEN'
 # in your Colab secrets with your Hugging Face token as the value.
 print("enter token")
